@@ -1,7 +1,9 @@
 export default {
   title: "Ingénieur QA Logiciel",
-  describe: `Ingénieur Test Logiciel avec une expérience pratique en tests manuels et automatisés pour les applications web et mobiles, et une expertise spécialisée dans l’évaluation de la qualité de l’IA. Compétent dans la création et l’exécution de cas de test complets, l’identification des anomalies, et l’assurance qualité des produits à travers les tests de régression, smoke, sanity, exploratoires, UI, API et performance.
-  Maîtrise de Java, Selenium WebDriver, TestNG, Cucumber, Appium, Postman, Apidog, Swagger et JMeter, avec une expérience dans l’utilisation d’outils de suivi des anomalies tels que Jira, Azure DevOps, Trello, Git et GitHub. Certifié ISTQB Foundation et Agile Tester, avec une solide connaissance de SQL, OOP, SDLC, STLC et des pratiques Agile/Scrum. Reconnu pour fournir un retour structuré, favoriser l’amélioration continue et collaborer efficacement avec des équipes pluridisciplinaires afin de livrer des solutions fiables et de haute qualité.`,
+  describe: `Ingénieur(e) en tests logiciels avec une expérience pratique en tests manuels et automatisés pour des applications web, mobiles et basées sur l’IA/apprentissage automatique. Compétent(e) dans la création et l’exécution de cas de test complets, l’identification de bogues et l’assurance de la qualité du produit grâce à des tests de régression, de fumée (smoke), de validation (sanity), exploratoires, d’interface utilisateur (UI), d’API et de performance.
+Maîtrise de Java, Selenium WebDriver, TestNG, Cucumber, Appium, Postman, Apidog, Swagger et JMeter, avec une expérience dans l’utilisation d’outils de suivi des défauts tels que Jira, Azure DevOps, Trello, Git et GitHub.
+Certifié(e) ISTQB Foundation et Agile Tester, avec une solide connaissance du SQL, de la POO, du SDLC, du STLC et des pratiques Agile/Scrum.
+Reconnu(e) pour fournir un retour structuré, favoriser l’amélioration continue et collaborer efficacement avec des équipes interfonctionnelles afin de livrer des solutions logicielles fiables et de haute qualité.`,
   DownloadCv: "Télécharger mon CV",
   MY_SKILLS: "MES COMPÉTENCES",
   My_Projects: "Mes projets",
