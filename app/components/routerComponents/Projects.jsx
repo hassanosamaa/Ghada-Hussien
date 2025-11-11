@@ -24,20 +24,20 @@ const projects = [
   },
   {
     id: 3,
+    title: "Elagi – Healthcare & Pharmacy Platform (API Testing)",
+    description: `Performed API validation and integration testing for a healthcare platform using Postman, ensuring reliability, accuracy, and secure communication between services.
+Verified response structures, error handling, and authentication mechanisms to maintain data integrity and system stability.`,
+    image: "/img4.jpeg",
+    link: "#",
+  },
+  {
+    id: 4,
     title:
       "ParaBank – Online Banking System (Manual, Automation & Database Testing)",
     description:
       "Executed manual, automated, and database testing for a comprehensive banking web application. Combined functional, regression, and data validation approaches using Selenium, SQL, and Jira to ensure system reliability and data integrity.",
     image: "/img3.jpeg",
     link: "https://drive.google.com/drive/folders/1fdgKpaBGFMoJ1FPodAsVXJjF_gkdZkl_?usp=sharing",
-  },
-  {
-    id: 4,
-    title: "Elagi – Healthcare & Pharmacy Platform (API Testing)",
-    description: `Performed API validation and integration testing for a healthcare platform using Postman, ensuring reliability, accuracy, and secure communication between services.
-Verified response structures, error handling, and authentication mechanisms to maintain data integrity and system stability.`,
-    image: "/img4.jpeg",
-    link: "#",
   },
   {
     id: 5,
