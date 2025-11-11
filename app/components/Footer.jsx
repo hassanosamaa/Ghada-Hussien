@@ -45,11 +45,11 @@ const Footer = () => {
           </i>
         </a>
 
-        <a href="https://wa.me/+201098940399">
+        {/* <a href="https://wa.me/+201098940399">
           <i className="   text-[25px] md:text-[30px]  transition duration-300">
             <WhatsappIcon />
           </i>
-        </a>
+        </a> */}
       </div>
     </div>
   );

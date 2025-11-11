@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -69,10 +69,10 @@ const ProjectsPage = () => {
   return (
     <section className="min-h-screen  py-16 px-6">
       <Swiper
-        modules={[Navigation, Autoplay]}
+        modules={[Navigation]}
         slidesPerView={1}
         spaceBetween={30}
-        autoplay={{ delay: 3500, disableOnInteraction: false }}
+        navigation={true}
         breakpoints={{
           640: { slidesPerView: 1 },
           768: { slidesPerView: 2 },

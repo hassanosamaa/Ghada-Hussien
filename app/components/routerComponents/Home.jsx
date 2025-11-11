@@ -87,11 +87,11 @@ const HomePage = () => {
             </i>
           </a>
 
-          <a href="https://wa.me/+201098940399">
+          {/* <a href="https://wa.me/+201098940399">
             <i className="   text-[25px] md:text-[30px]  transition duration-300">
               <WhatsappIcon />
             </i>
-          </a>
+          </a> */}
         </div>
         <div className=" py-[8px] mt-4 rounded-[5px] px-[15px] border border-zinc-600 cursor-pointer  opacity-100 hover:opacity-70  transition duration-300">
           <a href={""} download="Ghada Hussien cv.pdf">
