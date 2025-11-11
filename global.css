@@ -1,28 +1,23 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-.bg_dark{
-  @apply bg-gray-950
+.bg_dark {
+  @apply bg-gray-950;
 }
 
-
-
-
-.btn{
+.btn {
   @apply bg-gray-900 px-4 py-[5px] rounded-xl
   hover:bg-gray-800 
-   text-gray-400
+   text-gray-400;
 }
 
-.check{
-  @apply bg-gray-800 border border-sky-700 text-gray-50
+.check {
+  @apply bg-gray-800 border border-sky-700 text-gray-50;
 }
 
-.skill{
-  @apply text-[80px] 
+.skill {
+  @apply text-[80px];
 }
 .language-changer-container {
   position: relative;
@@ -43,7 +38,7 @@
   color: white;
   border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: 8px;
-  padding: 6px 28px 6px 10px; 
+  padding: 6px 28px 6px 10px;
   font-size: 14px;
   cursor: pointer;
   outline: none;
@@ -66,4 +61,29 @@
 .language-select:focus {
   border-color: #4cafef;
   box-shadow: 0 0 0 2px rgba(76, 175, 239, 0.4);
+}
+
+.swiper {
+  padding-inline: 29px !important;
+}
+.swiper-button-next {
+  right: -12px !important;
+}
+.swiper-button-prev {
+  left: -12px !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+}
+
+@media (max-width: 640px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+
+  .swiper {
+    padding-inline: 0px !important;
+  }
 }
