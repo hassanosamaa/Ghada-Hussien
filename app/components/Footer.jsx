@@ -1,8 +1,8 @@
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import WhatsappIcon from "./icons/WhatsappIcon";
 import { useI18n } from "@/locales/client";
 const Footer = () => {
-  const t= useI18n();
+  const t = useI18n();
   return (
     <div
       className="
@@ -22,7 +22,7 @@ const Footer = () => {
             w-full 
             md:w-[40%]"
       >
-        {t('title')}
+        {t("title")}
       </div>
       <div
         className="flex 
@@ -45,11 +45,11 @@ const Footer = () => {
           </i>
         </a>
 
-        {/* <a href="https://wa.me/+201098940399">
+        <a href="mailto:ghada.muhussien@gmail.com">
           <i className="   text-[25px] md:text-[30px]  transition duration-300">
-            <WhatsappIcon />
+            <Mail color="#ffff" />
           </i>
-        </a> */}
+        </a>
       </div>
     </div>
   );
